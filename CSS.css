@@ -1,0 +1,163 @@
+
+h2{
+    color:cornsilk;
+   }
+
+
+ body{
+    margin:0px;
+    padding: 0px;
+ }
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ body{
+    background: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1900px, 100px;
+    
+ }
+
+ .form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width:400px;
+   border: 1px solid black; 
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+ }
+
+  
+
+ .form h1{
+    color:blanchedalmond;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+
+.box {
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: antiquewhite;
+    font-size: 1rem;
+}
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: inset rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font: 1em;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:antiquewhite;
+}
+::placeholder{
+    color: blanchedalmond;
+    opacity: 0.7;
+} 
+
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    margin-left: 60px;
+    font-size: xx-large;
+ }
+
+ .icon{
+     width: 200px;
+     float: center;
+     height: 70px;
+ }
+
+ .logo{
+    color:whitesmoke;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+ }
+
+ .menu{
+    width: 30px;
+    float: left;
+    height: 70px;
+ }
+
+ ul{
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: left ;
+ }
+
+ ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 14px;
+ }
+
+ ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+ }
+
+ ul li a:hover {
+    color:whitesmoke;
+ }
+  
+ .login-container{
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  width: 300px;
+  padding: 20px;
+  margin-left: 63%;
+
+ }
+ .login-container a {
+  color: white;
+ }
+
+
+h6{
+  width: 900px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 170px;
+  font-size: 120%;
+}
